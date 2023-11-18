@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* css styling  */
+.nav-link:hover{
+   /* background-color: brown; */
+   color:#272727;
+   border-radius: 5px;
+}
+
+img{
+  border-radius: 10px;
+  /* margin: 10px;  */
+  transition:transform .2s;
+  transition-duration:2s;
+  box-shadow: 5px 8px 10px #000;
+  height:auto;
+  width:100%;
+
+  /* border:5px solid #0d6efd; */
+}
+
+img:hover{
+  transform:scale(1.2);
+  transition-duration:2s;
+ /* transform: skew(3deg,5deg); */
+}
+
+/* .bikes{
+  background-color: #878787;
+} */
+
+.navbar{
+  /* background-color: #0d6efd;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #4621ff 100%);   */
+  /* background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% ); */
+  /* background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% ); */
+  background-color: #333;
+}
+
+/* .nav-item{
+  height:"250px"; 
+  width:"400px";
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid #333;
+  color:#fff;
+} 
+
+.nav-item:hover{
+  background: transparent;
+  border: 2px solid #333;
+  color:#fff;
+}  */
+
+.cars{
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+/* background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%); */
+height:100vh;
+}
+
+.bikes{
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+height:100vh;
+}
+
+.lord{
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+height:100vh;
+}
+
+/* .nav-item{
+  background: #666;
+    border-radius: 5px;
+    padding: 0px 21px;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+  background: transparent;
+  border:2px solid black;
+  color:#fff;
+} */
+
+.navbar-brand{
+  font-weight: 600;
+}
+
+h4{
+  color:#fff;
+  line-height: 55px;
+  font-family: 'poppins';
+  font-weight: 500;
+}
+
+h2{
+  font-family: 'poppins';
+}
+
+body{
+  background: #9d5151;
+  /* height:100vh !important; */
+}
+
+.badge{
+  background-color: #333;
+  padding:14px 25px;
+  font-size: 15px;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-family: 'poppins';
+}
+
+.badge:hover{
+  /* background: transparent; */
+  /* border:2px solid white; */
+  color:#fff;
+  text-decoration:none;
+  /* background-color: #333; */
+}
+
+img{
+  height:auto;
+} 
